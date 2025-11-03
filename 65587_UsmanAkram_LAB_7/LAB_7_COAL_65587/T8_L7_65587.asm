@@ -1,0 +1,6 @@
+MOV AX, 0F0F0H  ;No flags affected.
+ADD AL, 0FH     ;CF=0,ZF=0,SF=1,OF=0,AF=1,PF=1
+ADD AH, 0F0H    ;CF=1,ZF=0,SF=1,0F=1,AF=0,PF=1
+ADD AX, 0F0F0H  ;CF=1,ZF=0,SF=1,0F=1,AF=0,PF=0
+
+

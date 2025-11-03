@@ -1,0 +1,8 @@
+MOV AX, 00FFH    ;NO FLAGS AFFECTED.
+ADD AL, 1        ;CF=1 ZF=1 SF=0 OF=1 PF=1 AF=1 
+ADD AH, 1        ;CF=0 ZF=0 SF=0 OF=0 PF=0 AF=0 IF=1
+ADD AX, 1        ;CF=0 ZF=0 SF=0 OF=0 PF=0 AF=0 IF=1
+
+
+
+
