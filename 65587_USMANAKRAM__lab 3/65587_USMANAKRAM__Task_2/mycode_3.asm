@@ -1,0 +1,10 @@
+mov ax, 09C31h
+add ax, 1675
+mov bx, 48950
+sub bx, ax
+mov cx, 0743h
+add cx, bx
+mov dx, 2100
+sub dx, cx
+add ax, dx
+sub ax, 470

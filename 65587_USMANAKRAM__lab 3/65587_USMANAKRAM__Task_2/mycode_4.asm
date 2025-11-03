@@ -1,0 +1,10 @@
+mov ax, 0D2A5h
+add ax, 1200
+mov bx, 53210
+sub bx, ax
+mov cx, 05F0h
+add cx, bx
+mov dx, 1900
+sub dx, cx
+add ax, dx
+sub ax, 430
